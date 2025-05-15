@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code config
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# SQLite DBs (if generated during runtime)
+*.db
+
+# Jupyter Notebooks checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Python egg metadata and packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# pycache cache
+*.pyc
+
+# MySQL dumps
+*.sql
+
+# Pip dependency lock files (if not using)
+Pipfile.lock
+poetry.lock
