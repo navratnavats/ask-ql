@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import streamlit as st
-from ui.connections2 import connect_to_db_and_list, connect_to_selected_db
+from ui.connections_ui import connect_to_db_and_list, connect_to_selected_db
 from cli.agents.sql_agent import create_sql_agent_executor
 
 # Initialize session state
